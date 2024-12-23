@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "MuseoModerno", serif;
+    
+}
+
+#hero {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/barquisimeto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#hero-title {
+    color: whitesmoke;
+    border-radius: 8px;
+    background: #593931;
+    padding:5px 15px;
+}
+
+#hero-subtitle {
+    background-color: #CCC7B9;
+    color: #252525;
+    width: 400px;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E3DC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#act-title {
+    color: #252525;
+    margin-bottom: 50px;
+}
+#img-act {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start; 
+    justify-content: space-around;   
+}
+
+.places {
+    height: 280px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #dce5e3;
+    box-shadow: 0px 0px 8px #593931;
+}
+
+.places-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#guide {
+    display:block;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#guide-card{
+    margin: 50px 0;
+    padding: 15px;
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e3dce5;
+    align-items: center;
+    justify-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #593931;
+    border-bottom: 8px solid #593931;
+}
+
+#guide-img{
+    width: 200px;
+    padding-right: 15px;
+}
